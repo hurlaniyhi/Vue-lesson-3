@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vue tutorial three</title>
+    <link href="styles.css" rel="stylesheet" />
+    <script src="https://unpkg.com/vue"></script>
+</head>
+<body>
+    <!--MULTIPLE INSTANCES-->
+    <!-- <div id="vue-one">
+
+        <h1>{{title}}</h1>
+        <p>{{greet}}</p>
+
+    </div>
+
+    <div id="vue-two">
+
+        <h1>{{title}}</h1>
+        <p>{{greet}}</p>
+        <button @click="changeInstanceOne">Change instance one title</button>
+
+    </div> -->
+
+    
+    <!--COMPONENT-->
+
+    <!-- <div id="vue-app-one">
+        <h1>vue app one</h1>
+        <p>{{title}}</p>
+        <greeting></greeting>
+    </div>
+
+    <div id="vue-app-two">
+        <h1>vue app two</h1>
+        <greeting></greeting>
+    </div> -->
+
+
+
+    <!--Refs-->
+    <div id="vue-app">
+        <input type="text" ref="foodie"/>
+        <p ref="p ">wow</p>
+        <button v-on:click="readRefs">Submit</button>
+        <p>Your favorite food: {{output}}</p>
+    </div>
+
+    <script src="app.js"></script>
+    
+</body>
+</html>
